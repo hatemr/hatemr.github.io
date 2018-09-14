@@ -1,5 +1,5 @@
 ---
-title: Machine Learning Basics
+title: "Machine Learning Basics"
 date: 2018-09-14
 ---
 
