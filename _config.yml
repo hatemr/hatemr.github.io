@@ -1,1 +1,16 @@
+title: Robert Hatem
+author: Robert Hatem
+email: robert.emile.hatem@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description. This is a blog
+  for machine learning and other topics.
+
+# social links
+twitter_username: your-twitter-handle
+github_username:  your-github-handle
+
+show_excerpts: true # set to false to remove excerpts on the homepage
+
 theme: jekyll-theme-minimal
