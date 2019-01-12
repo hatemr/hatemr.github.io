@@ -10,6 +10,7 @@ description: > # this means to ignore newlines until "baseurl:"
 # social links
 # twitter_username: your-twitter-handle
 github_username:  hatemr
+linkedin_username: robert-e-hatem 
 
 base-url: https://hatemr.github.io/
 
@@ -18,3 +19,6 @@ show_excerpts: false # true # set to false to remove excerpts on the homepage
 theme: minima #jekyll-theme-minimal
 
 markdown: kramdown
+
+plugins:
+  - jekyll-feed
