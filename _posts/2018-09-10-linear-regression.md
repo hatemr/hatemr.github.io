@@ -69,23 +69,23 @@ This sounds reasonable - if we want to predict a value of $Y$ and we have its di
 
 ## Predicting One Variable from Another Variable
 
-Let's make the situation more interesting. Suppose we also have another random variable $X$ which is related to $Y$, and therefore can help us predict $Y$. That is, $X$ are $Y$ may be dependent: $p(Y|X) \neq p(Y)$. Therefore, knowing $X$ could help us predict $Y$. Therefore, our prediction will be $m(X)$ where $m$ is now a function of $X$.
+Let's make the situation more interesting. Suppose we also have another random variable $X$ which is related to $Y$, and therefore can help us predict $Y$. That is, $X$ are $Y$ may be dependent: $p(Y \| X) \neq p(Y)$. Therefore, knowing $X$ could help us predict $Y$. Therefore, our prediction will be $m(X)$ where $m$ is now a function of $X$.
 
-Now the $MSE$ is given by $\mathbb{E}[(Y - m(X))^2]$, and our goal, again, is to find the estimate $m(X)$ that minimizes the $MSE$. We can use the result we found previously by noticing that now $Y$ is distributed as $p(Y|X)$ instead of $p(Y)$ as used before. Therefore, instead of predicting $m=\mathbb{E}[Y]$, we simply predict $\mu(x) = \mathbb{E}[Y|X=x]$. This is still the mean of $Y$, but now under a new distribution of $Y$. The prediction $m$ changed to $\mu(x)$ to recognize that our prediction now uses the known $x$ value to help predict $Y$, so the prediction is a function of $x$.
+Now the $MSE$ is given by $\mathbb{E}[(Y - m(X))^2]$, and our goal, again, is to find the estimate $m(X)$ that minimizes the $MSE$. We can use the result we found previously by noticing that now $Y$ is distributed as $p(Y \| X)$ instead of $p(Y)$ as used before. Therefore, instead of predicting $m=\mathbb{E}[Y]$, we simply predict $\mu(x) = \mathbb{E}[Y \| X=x]$. This is still the mean of $Y$, but now under a new distribution of $Y$. The prediction $m$ changed to $\mu(x)$ to recognize that our prediction now uses the known $x$ value to help predict $Y$, so the prediction is a function of $x$.
 
-As in the one-variable case, if we knew the distribution $p(Y|X=x)$, we would just take the mean and use that as our prediction. However, we don't know the whole distribution $p(Y|X=x)$; moreover, all we need is its mean $=\mathbb{E}[Y|X=x]=\mu(x)$, which we call the **regression function**.
+As in the one-variable case, if we knew the distribution $p(Y \| X=x)$, we would just take the mean and use that as our prediction. However, we don't know the whole distribution $p(Y \| X=x)$; moreover, all we need is its mean $=\mathbb{E}[Y \| X=x]=\mu(x)$, which we call the **regression function**.
 
-Note that for any two random variables, which have a joint distribution, the conditional expectation of one on the other can, in general, be a function of the second variable. For example, if $X_1$ and $X_2$ are bivariate normal, then $\mathbb{E}[X_1|X_2 = x_2]=\mu_1+\rho\frac{\sigma_1}{\sigma_2}(x_2-\mu_2) = f(x_2)$; the conditional expecation is a function of $x_2$.
+Note that for any two random variables, which have a joint distribution, the conditional expectation of one on the other can, in general, be a function of the second variable. For example, if $X_1$ and $X_2$ are bivariate normal, then $\mathbb{E}[X_1 \| X_2 = x_2]=\mu_1+\rho\frac{\sigma_1}{\sigma_2}(x_2-\mu_2) = f(x_2)$; the conditional expectation is a function of $x_2$.
 
 ### An Approximation
 
-The actual relationship between $X$ and $Y$ could be very complicated, that is, the regression function $\mu(x)= \mathbb{E}[Y|X=x]$ is unknown and potentially complex.
+The actual relationship between $X$ and $Y$ could be very complicated, that is, the regression function $\mu(x)= \mathbb{E}[Y \| X=x]$ is unknown and potentially complex.
 
 Since we don't know this complex function $\mu(x)$, which may not even have a nice mathematical form, we can choose to approximate it as a linear function of $X$:
 
 $$\mu(x) = \mathbb{E}[Y|X=x] = \beta_0 + \beta_1x$$
 
-It is usually a vast generalization to say that $\mathbb{E}[Y|X=x]$ is a linear function of $X$. However, using such simple approximations allows for a starting point and often captures enough of the relationship to make useful models. It also does not assume the true relationship is linear - it is just approximating the true relationship with a linear one.
+It is usually a vast generalization to say that $\mathbb{E}[Y \| X=x]$ is a linear function of $X$. However, using such simple approximations allows for a starting point and often captures enough of the relationship to make useful models. It also does not assume the true relationship is linear - it is just approximating the true relationship with a linear one.
 
 ### Deriving the coefficients
 
@@ -141,7 +141,7 @@ Now let's introduce the **simple linear regression model**, the "most basic of m
 #### Assumptions
 1. The distribution of $X$ is arbitrary, possibly even deterministic.
 2. If $X=x$, then $Y=\beta_0 + \beta_1x + \epsilon$ for some constants ("cefficient", "parameters") $\beta_0$ and $\beta_1$, and some random noise variable $\epsilon$ (random variable)
-3. $\epsilon$ is a random variable with unspecified distribution, but has $\mathbb{E}\left[\epsilon|X=x\right]=0$ (no matter what $x$ is), $Var\left[\epsilon|X=x\right]=\sigma^2$ (no matter what $x$ is).
+3. $\epsilon$ is a random variable with unspecified distribution, but has $\mathbb{E}\left[\epsilon \| X=x\right]=0$ (no matter what $x$ is), $Var\left[\epsilon \| X=x\right]=\sigma^2$ (no matter what $x$ is).
 4. $\epsilon$ is uncorrelated across observations
 
 All of these assumptions will need to be checked if the model is to be used. It is possible to use stronger assumptions and draw more powerful inferences, but these assumptions are strong enough already to start on inferece.
