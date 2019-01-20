@@ -1,11 +1,11 @@
 ---
-title: Linear Regression
-date: 2018-04-25 09:02
-author: Emile Hatem
-lang: en
-tags: initial, pelican
-summary: Introduction to linear regression
-image: images/CRA.png
+Title: Linear Regression
+Date: 2018-04-25 09:02
+Author: Emile Hatem
+Lang: en
+Tags: initial, pelican
+Summary: Introduction to linear regression
+Image: images/CRA.png
 ---
 
 This introduces linear regression from an elementary point of view. Returning to the theoretical foundations helps since linear regression serves as a building block for more advanced techniques.

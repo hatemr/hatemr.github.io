@@ -9,7 +9,6 @@ Image: images/CRA.img
 mathjax: true
 ---
 
-# Overview of  Machine Learning
 Machine learning has become popular recently as  more data becomes available for analysis.  This set of techniques are not new, but they are more useful now given more data.
 
 These techniques go by different names in different academic and professional communities.  Computer scientists call them *machine learning*, and the "data science" community has done the same.  The statistics community calls them statistics or statistical learning.  In banking and finance, they're often called *modeling* [^1].  Some prefer a compromise: **statistical modeling**.

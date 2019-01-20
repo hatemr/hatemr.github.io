@@ -1,7 +1,7 @@
 ---
-title: Model Risk Management
-date: 2018-09-14
-image: _images/park_ave.png
+Title: Model Risk Management
+Date: 2018-09-14
+Image: _images/park_ave.png
 ---
 
 Mathematical models are inherently imperfect representations of economic and financial behavior.  When decisions are made based on model outputs which are incorrect or misused, that poses a risk to the firm.  To manage this risk, Model risk management is responsible for identifying, monitoring, and mitigating model risk within the firm.  The main regulatory guidance on model risk as called [FR11-7](https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm).
