@@ -2,4 +2,4 @@
 layout: home
 ---
 
-Now I can pontificate.
+[comment]: <> (Machine learning and other things)
