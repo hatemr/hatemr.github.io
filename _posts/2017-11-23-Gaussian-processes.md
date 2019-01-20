@@ -66,7 +66,7 @@ $$\mu_{*} = \mu_A + \Sigma_{AB}\Sigma_{BB}^{-1}(x_B-\mu_B)$$
 
 $$\Sigma_{*} = \Sigma_{AA} - \Sigma_{AB}\Sigma_{BB}^{-1}\Sigma_{AB}^T$$
 
-Thus the resulting distribution is a Gaussian with mean and covariance calculated simply from the means and covariances of the joint distribution. While this is a nice result, deriving the equations for $\mu_{*}$ and $\Sigma_{*}$ involve some intense linear algebra and I go into it. This conditional distribution is essential for our GP regression example below.
+Thus the resulting distribution is a Gaussian with mean and covariance calculated simply from the means and covariances of the joint distribution. While this is a nice result, deriving the equations for $\mu_{a}$ and $\Sigma_{a}$ involve some intense linear algebra and I go into it. This conditional distribution is essential for our GP regression example below.
 
 ## Covariance
 
