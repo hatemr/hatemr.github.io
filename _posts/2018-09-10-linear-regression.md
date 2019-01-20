@@ -1,18 +1,14 @@
-Title: Linear Regression
-Date: 2018-04-25 09:02
-Author: Emile Hatem
-Lang: en
-Tags: initial, pelican
-Summary: Introduction to linear regression
-Image: images/CRA.png
+---
+title: Linear Regression
+date: 2018-04-25 09:02
+author: Emile Hatem
+lang: en
+tags: initial, pelican
+summary: Introduction to linear regression
+image: images/CRA.png
+---
 
-# Simple Linear Regression
-
-## Introduction
-
-This document serves to introduce linear regression from an elementary point of view. Returning to the theoretical foundations helps since linear regression serves as a building block for more advanced techniques.
-
-## The Goal
+This introduces linear regression from an elementary point of view. Returning to the theoretical foundations helps since linear regression serves as a building block for more advanced techniques.
 
 This tutorial relies heavily on Cosma Shalizi's lectures on modern regression[^1], which are insightful, witty, and a delight to read. This tutorial is taken from his lectures and I recommend anyone who is curious to check them out. 
 

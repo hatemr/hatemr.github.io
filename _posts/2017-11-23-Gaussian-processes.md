@@ -1,11 +1,12 @@
-Title: Gaussian Processes
-Date: 2017-11-23 10:02
-Author: Robert Hatem
-Lang: en
-Tags: Gaussian processes
-Summary: An Introduction to Gaussian Processes
-Image: images/gp_sample_prior.png, images/gp_sample_posterior.png
-)
+---
+title: Gaussian Processes
+date: 2017-11-23 10:02
+author: Robert Hatem
+lang: en
+tags: Gaussian processes
+summary: An Introduction to Gaussian Processes
+image: images/gp_sample_prior.png, images/gp_sample_posterior.png
+---
 
 # Gaussian Processes
 
