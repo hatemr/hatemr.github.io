@@ -14,9 +14,6 @@ Stress testing, using a top-down approach, consists of estimating the *risk para
 * LGD - Loss Given Default
 * EAD - Exposure at Default
 
-Here's my photo1: ![Park Ave](/_posts/_images/park_ave.jpg)
-
-
 Here's my photo2: ![Park Ave](/images/park_ave.jpg)
 
 ## Model Validation
