@@ -93,7 +93,7 @@ Now let's sample the prior to get a sense of the function $f$ at these points:
 $$p(f_{*}|X_{*})=\mathcal{N}(f_{*}| \mu_{*},K_{**})$$
 
 where
-$\mu = 0$ by design and $\sigma=3$
+$\mu = 0$ by design and $\kappa=3$
 
 $K = \kappa(X_{*},X_{*})$, $\kappa=2$
 
