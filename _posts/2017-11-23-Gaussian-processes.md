@@ -68,7 +68,7 @@ $$\Sigma_{*} = \Sigma_{AA} - \Sigma_{AB}\Sigma_{BB}^{-1}\Sigma_{AB}^T$$
 
 Thus the resulting distribution is a Gaussian with mean and covariance calculated simply from the means and covariances of the joint distribution. While this is a nice result, deriving the equations for $\mu_{*}$ and $\Sigma_{*}$ involve some intense linear algebra and I go into it. This conditional distribution is essential for our GP regression example below.
 
-## Coveriance
+## Covariance
 
 Before starting the regression example, it should be noted that the covariance $\Sigma(x)$ will be given by $\Sigma_{ij}=\kappa(x_i,x_j)$ where $\kappa$ is a positive definite kernel function, which measures the similarity between the two points. The kernel is designed to capture the notion that if two points $x_i$ and $x_j$ are close to each other, or similar, then so should the outputs $f(x_i)$ and $f(x_j)$. This is encoded in the covariance matrix.
 
@@ -93,7 +93,7 @@ Now let's sample the prior to get a sense of the function $f$ at these points:
 $$p(f_{*}|X_{*})=\mathcal{N}(f_{*}| \mu_{*},K_{**})$$
 
 where
-$\mu = 0$ by design and $\kappa=3$
+$\mu = 0$ by design and $K = \kappa=3$
 
 $K = \kappa(X_{*},X_{*})$, $\kappa=2$
 
