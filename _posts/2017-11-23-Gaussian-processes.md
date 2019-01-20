@@ -3,12 +3,11 @@ Title: Gaussian Processes
 Date: 2017-11-23 10:02
 Author: Robert Hatem
 Lang: en
-Tags: Gaussian processes
 Summary: An Introduction to Gaussian Processes
 Image: images/gp_sample_prior.png, images/gp_sample_posterior.png
 ---
 
-I decided I'd share what I've learned about Gaussian processes. This introduction is on the technical side but hopefully still accessible.
+This is what I've learned about Gaussian processes. This introduction is on the technical side but hopefully still accessible.
 
 Gaussian processes are Bayesian non-parametric models and they can be used for regression and classification, but this article will focus on regression.
 
