@@ -120,7 +120,7 @@ Another difference is that statistical modeling often uses parametric models (th
 
 ## Conceptual Questions on Machine Learning
 1. How would you define Machine Learning?
-  * answer
+  * Machine learning is known variables to predict some unknown variables. It's about predicting new stuff using the stuff you already know.
 2. Can you name four types of problems where it shines?
   * answer
 3. What is a labeled training set?
@@ -132,9 +132,9 @@ Another difference is that statistical modeling often uses parametric models (th
 6. What type of Machine Learning algorithm would you use to allow a robot to walk in various unknown terrains?
   * answer
 7. What type of algorithm would you use to segment your customers into multiple groups?
-  * answer
-8. Would you frame the problem of spam detection as a suptervised learning problem or an unsupervised learning problem?
-  * answer
+  * K-means clustering would split customers into multiple groups which are similar in-group and different between groups. One challenge is you must specify the number of groups before running the algorithm - it may be hard to say how many groups exist in the customers.
+8. Would you frame the problem of spam detection as a supervised learning problem or an unsupervised learning problem?
+  * Spam detection is supervised learning because there is a variable to be predicted (the target variable). In unsupervised learning, there is no one variable to be predicted; the goal is to find structure in the data.
 9. What is an online learning system?
   * answer
 10. What is out-of-core learning?
@@ -148,9 +148,12 @@ Another difference is that statistical modeling often uses parametric models (th
 14. Can you name four of the main challenges in Machine Learning?
   * answer
 15. If your model performs great on the training data but generalizes poorly to new instances, what is happending?  Can you name three possible solutions?
-  * answer
+  1. model could be underfitting - try a more flexible model. E.g. add more variables in a linear regression, or add more hidden layers to a neural network.
+  2. model could be overfitting, where the model is flexible and memorizes the training examples well, but generalizes poorly on new unseen data. The solution is to try a less flexible model (e.g. increase regualarization term).
+  3. Obtaining more training data can also reduce overfitting.
+
 16. What is a test set and why would you want to use it?
-  * answer
+  * The data is split into training and test sets. The model is trained on the training set then the model makes predicitons on the test set, which it has not seen before. Test sets predict how the model will perform on new, unseen data. 
 
 [^1]: [*Hands-On Machine Learning with Scikit-Learn & TensorFlow*](http://shop.oreilly.com/product/0636920052289.do)
 
