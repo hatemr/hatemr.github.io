@@ -3,7 +3,6 @@ Title: Linear Regression
 Date: 2018-04-25 09:02
 Author: Emile Hatem
 Lang: en
-Tags: initial, pelican
 Summary: Introduction to linear regression
 Image: images/CRA.png
 ---
