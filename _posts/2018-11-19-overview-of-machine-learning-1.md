@@ -81,22 +81,9 @@ When building a statistical model, the data must be split into 3, sometimes 2, d
 ## Overfitting
 Overfitting occurs when a model fits the training set well, but fails to predict well on the test set.  This indicates the model is too flexible; it adjusted to fit the training data *too* well, and failed on new data.  The solution is to reduce the model's flexibility; this is called regularization.
 
-For example, linear regression can be regularized using the L1 norm (Lasso) and L2 norm (Ridge) on the cost function, limiting the possible values the coefficients can take on.  This will raise the model's bias, but lower it's variance, hopefully reducing the test error.  The amount of regularization is adjusted to minimize the test error.
+For example, linear regression can be regularized using the L1 norm (Lasso) and L2 norm (Ridge) on the cost function, limiting the possible values the coefficients can take on.  This will raise the model's bias, but lower its variance, hopefully reducing the test error.  The amount of regularization is adjusted to minimize the test error.
 
-Neural networks are highly flexible models which must be carefully checked, and regularized, to avoid overfitting.  Though their flexibility makes them diffciult to understand, like a black-box, when appropriately regularized and applied to the correct problems neural networks offer highly accurate predictions.
-
-
-### Model Validation: Making Predictions, not Economic Theory
-In banking and finance, the terminology largely comes from econometrics.  For example, they refer to the mathemtical model and the predictor variables as the __model specification__.  Historically, the economic theory chose the predictor variables, and trying different combinations to find the best fit was scorned as _data mining_.  The variables had to make good economic sense, based on economic theory.  However,  most economists now recognize that instead of always starting from theory, empirical data can reveal economic theory, and trying many different model specifications has gained acceptance.
-
-Choosing the right model specification is emphasized far less in the machine learning community.  The usual approach is to try many combinations of variables, with many mathematical models, to find the best fit.  Accidentally omitting a variable could lower predictive accuracy, but it generally doesn't violate any theory or laws like it might in economics.  For example, in image recognition there is no notion that the pixel at position (XX, YY) should have a certain relationship with the target variable (cat or no cat).  It does not violate any laws, and as long as the model predicts with high accuracy, the specific model is not particularly important.
-
-In econometrics, using models that have been checked and tested for a correct specification allows one to make strong statements about the relationships between the variables, particularly, causality.  In short, the extra works allows one to find new economic theory and laws (to the extent that it actually exist).  Returning to image recognition, people do not use their model to form a theory about which speicifc arraingment of pixels defines  our notion of a "cat."  No law was discovered; but it's used powerfully in applications, like self-driving cars.
-
-In a business setting, models are used mainly for prediction, not theory-building.  Therefore, rigorously checking assumptions for a "correct specification" is often uneeded.  It is not important to checking that the correct set of variables was used; as long as the model predicts accuractely, then the set is not very important.  Checking the variables, and their coefficient signs, can help point towards a more predictive set, but they need not be perfect.
-
-The guidance on model validation, namely SR11-7, adopts the mindset and terminology of an academic econometrician who is focused on carefully finding economics theory, not on practical business predictions.  This imposes overly strict requirements on the models, which do not correspond to the reality of their usage.  This mismatch between strict requirement and actual usage is not surprising given that some level of arbitrariness is always present when writing and fulfilling regulation, but a more nuansced approach could be considered.
-
+Neural networks are highly flexible models which must be carefully checked, and regularized, to avoid overfitting.  Though their flexibility makes them difficult to understand, like a black-box, when appropriately regularized and applied to the correct problems neural networks offer highly accurate predictions.
 
 ## Is Linear Regression part of Machine Learning?
 Yes!  Linear regression is a technique in machine learning.  The term *machine learning* is basically a buzzword for statistics.  Machine learning is basically the computer science community's word for statistics.  It's just a buzzword.  For someone who is unconvinced, notice that linear regression is just a single-layer neural network with the identity activation function; if deep neural networks count as machine learning then so does linear regression.
@@ -109,14 +96,14 @@ There are a lot of buzzwords flying around; it can be hard to know what it all m
 
 * Data Mining - Uses ML to find patterns in data in a quest for actionable ideas.
 
-* Big Data - Data mining on large sets of structured and unstrauctured (text, speech) data
+* Big Data - Data mining on large sets of structured and unstructured (text, speech) data
 
 * Data Science - Science of performing data mining on Big Data.  In other words, it searches large volumes of data for actionable ideas.
 
-ML is a way for computers to learn about the world, much like humans use physics to learn about the world.  At the end of the day, data science is used to find patterns in data to find monetizable insights.
+ML is a way for computers to learn about the world, much like humans use physics to learn about the world.  At the end of the day, data science is used to find patterns in data to find monentizable insights.
 
 ### Note: Back to Statistics
-Another difference is that statistical modeling often uses parametric models (though not always) which aim to find causality, while machine learning models often uses non-parametric models which only aim to do predition, and this only find correlations in the variables.  For businesses, knowing causation is less improtant than simply predicting.  Again, the line between statistics and machine learning is blurry, and only useful to explain buzzwords.
+Another difference is that statistical modeling often uses parametric models (though not always) which aim to find causality, while machine learning models often uses non-parametric models which only aim to do prediction, and this only find correlations in the variables.  For businesses, knowing causation is less important than simply predicting.  Again, the line between statistics and machine learning is blurry, and only useful to explain buzzwords.
 
 ## Conceptual Questions on Machine Learning
 1. How would you define Machine Learning?
@@ -147,12 +134,12 @@ Another difference is that statistical modeling often uses parametric models (th
   * answer
 14. Can you name four of the main challenges in Machine Learning?
   * answer
-15. If your model performs great on the training data but generalizes poorly to new instances, what is happending?  Can you name three possible solutions?
+15. If your model performs great on the training data but generalizes poorly to new instances, what is happening?  Can you name three possible solutions?
   1. model could be underfitting - try a more flexible model. E.g. add more variables in a linear regression, or add more hidden layers to a neural network.
-  2. model could be overfitting, where the model is flexible and memorizes the training examples well, but generalizes poorly on new unseen data. The solution is to try a less flexible model (e.g. increase regualarization term).
+  2. model could be overfitting, where the model is flexible and memorizes the training examples well, but generalizes poorly on new unseen data. The solution is to try a less flexible model (e.g. increase regularization term).
   3. Obtaining more training data can also reduce overfitting.
 
 16. What is a test set and why would you want to use it?
-  * The data is split into training and test sets. The model is trained on the training set then the model makes predicitons on the test set, which it has not seen before. Test sets predict how the model will perform on new, unseen data. 
+  * The data is split into training and test sets. The model is trained on the training set then the model makes predictions on the test set, which it has not seen before. Test sets predict how the model will perform on new, unseen data. 
 
 [^1]: [*Hands-On Machine Learning with Scikit-Learn & TensorFlow*](http://shop.oreilly.com/product/0636920052289.do)
