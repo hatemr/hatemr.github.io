@@ -13,7 +13,9 @@ I decided I'd share what I've learned about Gaussian processes. This introductio
 
 Gaussian processes are Bayesian non-parametric models and they can be used for regression and classification, but this article will focus on regression.
 
-In supervised learning, we have some training data $\mathbf{X}$ and $\mathbf{y}$ and assume the outputs were produced from the inputs by a function $y=f(x)$. In a Bayesian approach, we use the training data to infer the distribution over functions, $p(f|,\mathbf{X}^{\checkmark},\mathbf{y}^{\checkmark})$, then use this to make predictions given new inputs $\mathbf{x_{*}}^{\checkmark}$ by integrating over all functions $f$: 
+This is a test line.
+
+In supervised learning, we have some training data $\mathbf{X}$ and $\mathbf{y}$ and assume the outputs were produced from the inputs by a function $y=f(x)$. In a Bayesian approach, we use the training data to infer the distribution over functions, $p(f \|,\mathbf{X}^{\checkmark},\mathbf{y}^{\checkmark})$, then use this to make predictions given new inputs $\mathbf{x_{*}}^{\checkmark}$ by integrating over all functions $f$: 
 
 $$p(y_{*}|\mathbf{x_{*}^{\checkmark}},\mathbf{X}^{\checkmark},\mathbf{y}^{\checkmark}) = \int p(y_{*}\vert f,\mathbf{x_{*}}^{\checkmark})p(f|\mathbf{X}^{\checkmark},\mathbf{y}^{\checkmark})df$$
 
