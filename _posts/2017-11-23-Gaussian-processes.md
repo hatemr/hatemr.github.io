@@ -93,7 +93,7 @@ Now let's sample the prior to get a sense of the function $f$ at these points:
 $$p(f_{*}|X_{*})=\mathcal{N}(f_{*}| \mu_{*},K_{**})$$
 
 where
-$\mu = 0$ by design and $K = \kappa(X_{*},X_{*})$, which is simply a covariance matrix, which is defined by the data, which we selected. I chose the x-values to have mean 0 because the mean plays a very minor role and it simplifies the calculations. The covariance matrix is far more important. Let's samples some values to see how $f$ prior behaves over the x-values that we selected.
+$\mu = 0$ by design and $K = K(X_{*},X_{*})$, which is simply a covariance matrix, which is defined by the data, which we selected. I chose the x-values to have mean 0 because the mean plays a very minor role and it simplifies the calculations. The covariance matrix is far more important. Let's samples some values to see how $f$ prior behaves over the x-values that we selected.
 
 
 ```python
