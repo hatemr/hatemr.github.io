@@ -86,7 +86,7 @@ For example, linear regression can be regularized using the L1 norm (Lasso) and 
 Neural networks are highly flexible models which must be carefully checked, and regularized, to avoid overfitting.  Though their flexibility makes them difficult to understand, like a black-box, when appropriately regularized and applied to the correct problems neural networks offer highly accurate predictions.
 
 ## Is Linear Regression part of Machine Learning?
-Yes!  Linear regression is a technique in machine learning.  The term *machine learning* is basically a buzzword for statistics.  Machine learning is basically the computer science community's word for statistics.  It's just a buzzword.  For someone who is unconvinced, notice that linear regression is just a single-layer neural network with the identity activation function; if deep neural networks count as machine learning then so does linear regression.
+Yes! Notice that linear regression is just a single-layer neural network with the identity activation function; if deep neural networks count as machine learning then so does linear regression. Even outside neural networks, linear regression still counts as machine learning.
 
 ### Buzzwords
 There are a lot of buzzwords flying around; it can be hard to know what it all means.  Here are some common buzzwords and what they actually mean. 
