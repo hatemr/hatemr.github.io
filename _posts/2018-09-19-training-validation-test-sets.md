@@ -1,5 +1,6 @@
 ---
 Title: Note on Training, Validation, and Test sets
+Layout: post
 Date: 2018-09-14
 Image: _images/park_ave.png
 ---
