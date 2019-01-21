@@ -4,7 +4,7 @@ Author: Robert Hatem
 Date: 2019-01-20
 ---
 
-Many people have recommended **Germs, Guns, and Steel** by Jared Diamond but I forgot about it until a friend recently recommended it again. So I watched the three-part National Geographic series on Youtube based by the book. It was thought provoking and worth the 3 hours (one and half to increase Nat Geo's speed).
+Many people have recommended *Guns, Germs, and Steel* by Jared Diamond but I forgot about it until a friend recently recommended it again. So I watched the three-part National Geographic [series](https://www.google.comhttps://www.youtube.com/watch?v=QwZ4s8Fsv94&t=29s) on Youtube based by the book. It was thought provoking and worth the 3 hours (one and half to increase Nat Geo's speed).
 
 The author was talking to a native of Papua New Guinea, near Australia. The native asked "Why you white men have so much cargo and we New Guineans have so little?" Westerners had modern devices and material goods, but New Guineans were farming by hand to survive. Diamond didn't know what to say, so he did some research. Here's what he found.
 
