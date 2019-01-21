@@ -12,11 +12,11 @@ First, the people who started farming first got ahead because having enough food
 
 Papua New Guinea, on the other hand, had low-nutrient plants and animals not amenable to domestication (only 11 of the 2000 species in the world have been domesticated; few if any of them are found in Papua New Guinea). PNG stagnated compared to more advanced regions.
 
-Having solved the food problem, Europeans created steel weapons and guns first. This helped Europeans conquor the Americas; the native populations were overmatched when it came to weapons.
+Having solved the food problem, Europeans created steel weapons and guns first. This helped Europeans conquor the Americas; the native populations were overmatched when it came to weaponry.
 
-Also contributing in the Americas was the diseases (germs) brought by Europeans. Diseases (like smallpox, measles, influenza) decimated the Native American populations, giving Europeans an easier win. These diseases came from domesticated animals; it had ravaged the European population over centuries but the survivors and their descendents became immune. Getting domesticated animals first gave the Europeans a another big edge.
+Also contributing in the Americas was the diseases (germs) brought by Europeans. Diseases (like smallpox, measles, influenza) decimated the Native American populations, giving Europeans an easier win. These diseases came from domesticated animals; they had ravaged the European population but the survivors and their descendents became immune. Getting domesticated animals first gave the Europeans another big edge.
 
-This explains why some countries could dominate other regions at particular points in time. The army with deadlier weapons wins wars. But it doesn't suggest a path for poor countries. Some countries got ahead by luck and stayed ahead; it's hard to see a catch-up plan for the unlucky countries.
+This explains why some countries could dominate other regions at particular points in time. The army with deadlier weapons (including biological) wins wars. But it doesn't suggest a path for poor countries. Some countries got ahead by luck and stayed ahead; it's hard to see a catch-up plan for the unlucky areas.
 
 It mentions that PNG is modernizing, but not quickly, and the rich countries continue to advance so a true catch-up seems unlikely. It's also not clear whether catching up is desirable as long as the poor countries are still moving forward. Why feel bad just because the neighbors have more?
 
