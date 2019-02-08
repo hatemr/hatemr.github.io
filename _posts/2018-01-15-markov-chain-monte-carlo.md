@@ -28,9 +28,9 @@ The pseudo-code is shown below:
 2. For $i = 0$ to $N-1$
     * Sample $x^*$ ~ $q(x^*|x_i)$
     * Sample $u$ ~ $U(0,1)$
-    * **If**: $u < A(x_i,x^*) = min \left\{1, \frac{p(x^*)q(x_i|x^*)}{p(x_i)q(x^*|x_i)}\right\}$  
-    $x_{i+1} = x^*$  
-    **else**:  
+    * **If**: $u < A(x_i,x^*) = min \left\{1, \frac{p(x^*)q(x_i|x^*)}{p(x_i)q(x^*|x_i)}\right\}$
+    $x_{i+1} = x^*$
+    **else**:
     $x_{i+1} = x_i$
 
 This algorithm results in $N$ samples from the target distribution $p(x)$, as desired. The values jumps around, guided by the proposal distribution and the acceptance probability, and the sample eventually converge to the desired distribution.
@@ -80,7 +80,7 @@ plt.ylabel('p(x)')
 
 
 
-![png]({filename}/images/MCMC_target_distribution.png)
+![MCMC target distribution](../images/MCMC_target_distribution.png)
 
 
 Now that we have a sense of the target distribution, let's look at the proposal distribution $w(x)$. In this example we'll use a Gaussian: $q(x^*|x) = N(x^*,\sigma^2)$ where $\sigma = 10$.
@@ -121,20 +121,20 @@ t0 = time.time()
 
 # run the MCMC algorithm
 for i in range(N-1):
-    
+
     # sample from uniform for the acceptance probability
     u = np.random.uniform(low=0, high=1)
-    
+
     # sample from the proposal distribution
     x_s = q_sample(x[i])
-    
+
     # accept the proposal with probability A
     if u < A(x[i], x_s):
         x[i+1] = x_s
     else:
         x[i+1] = x[i]
-        
-    # print status updates    
+
+    # print status updates
     if (i % (N/10)) == 0:
         print("fraction done:,", float(i)/N)
 ```
@@ -165,7 +165,7 @@ print("time in seconds:", time.time()-t0)
 
 
 
-![png]({filename}/images/MCMC_output_distribution.png)
+![MCMC output distribution](../images/MCMC_output_distribution.png)
 
 
 As expected, the histogram of the samples approximates the target distribution. The states travel around the target distribution and both modes have been vistited and sampled from.
