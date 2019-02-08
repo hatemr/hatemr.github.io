@@ -80,7 +80,7 @@ plt.ylabel('p(x)')
 
 
 
-![MCMC target distribution](../images/MCMC_target_distribution.png)
+![MCMC target distribution](/images/MCMC_target_distribution.png)
 
 
 Now that we have a sense of the target distribution, let's look at the proposal distribution $w(x)$. In this example we'll use a Gaussian: $q(x^*|x) = N(x^*,\sigma^2)$ where $\sigma = 10$.
@@ -165,7 +165,7 @@ print("time in seconds:", time.time()-t0)
 
 
 
-![MCMC output distribution](../images/MCMC_output_distribution.png)
+![MCMC output distribution](/images/MCMC_output_distribution.png)
 
 
 As expected, the histogram of the samples approximates the target distribution. The states travel around the target distribution and both modes have been vistited and sampled from.
