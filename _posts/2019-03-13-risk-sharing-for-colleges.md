@@ -10,7 +10,7 @@ mathjax: true
 
 # Policymakers hope incentives can turn bad loans into good loans
 
-The White House is considering forcing universities to pay for part of the losses on student loan defaults. This would incentivize colleges to get students good jobs, reduce default rates for borrowers, and boost the rate of return on the loans for the government.
+The White House is [considering](https://www.wsj.com/articles/white-house-might-put-colleges-on-the-hook-for-student-loans-11552406110?mod=e2fb&fbclid=IwAR1knGWkLnUNmqVkQUofMJq7Seylq-z07inOdEcZsPCRVroRQk6Ho_08Bjk) giving universities responsibility to pay for part of the losses on student loan defaults. This would incentivize colleges to get students good jobs, hopefully reduce default rates for borrowers, and boost the rate of return on the loans for the government.
 
 While this seems like a winning solution, it's worth thinking about what caused the problem. The federal government made risky loans to bad borrowers, and does not like the high default rates. Defaults hurt borrowers and lenders, who both lose money. Now the government wants universities to fix the problem by providing well-paying jobs to even marginal students. This would turn risky loans into good ones, and students would avoid painful defaults.
 
