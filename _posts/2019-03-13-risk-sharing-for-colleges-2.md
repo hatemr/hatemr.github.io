@@ -1,10 +1,9 @@
 ---
 Title: Some Common Algorithms
-Date: 2018-12-08 22:10
+Date: 2019-03-13
 Author: Robert Hatem
 Lang: en
 Tags:
-Summary: Tutorial on common statistical modeling techniques
 Image: images/CRA.img
 mathjax: true
 ---
