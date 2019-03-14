@@ -8,7 +8,7 @@ Image: images/CRA.img
 mathjax: true
 ---
 
-Residents are very excited about the new Jewel Osco grocery store in Woodlawn. There aren't many grocery stores around, especially with Treasure Island closing a few months ago. People are, apparently, yearning for more options. Yet Jewel Osco used some money from a \$30.5 million federal grant to pay for it \footnote{Choice Neighborhoods Initiative grant from the Housing and Urban Development (HUD), spent by the nonprofit Preservation of Affordable Housing}. If consumers wanted this grocery store so badly, why did it take federal money to build it?
+Residents are very excited about the new Jewel Osco grocery store in Woodlawn. There aren't many grocery stores around, especially with Treasure Island closing a few months ago. People are, apparently, yearning for more options. Yet Jewel Osco used some money from a \$30.5 million federal grant to pay for it. If consumers wanted this grocery store so badly, why did it take federal money to build it?
 
 * Jewel Osco will be profitable, they just don't see it. We know something about consumer demand that they don't. We need the subsidy just to get the store opened; then they'll see how profitable it is.
   * Seems unlikely that these non-profits can analyze the demand for the store more than Jewel Osco. Jewel Osco has analyzed many possible opening locations and knows how to do it better than a non-profit.
