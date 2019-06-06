@@ -18,7 +18,7 @@ To do my forecast, I pulled some data on historical on world life expectancy; th
 
 ![Historical Life Expectancy](/images/life_expectancy.png)
 
-This is clear long-term trend, which we can expect to continue unless large evidence says otherwise. Many environmentalists see such strong evidence in climate change. They argue it that floods, droughts, heat, and other problems could cut our life expectancy.
+This plot shows a clear long-term trend, which I expect to continue unless large evidence says otherwise. Many environmentalists see such strong evidence in climate change. They argue it that floods, droughts, heat, and other problems could cut our life expectancy.
 
 I don't see it though; people will adapt. If floods increase, people will to higher ground. If droughts occur, people will move or get food elsewhere. If extreme temperatures rise to deadly levels, people will buy AC. I'm not saying climate change won't have large effects, or will be harmless, I just don't think they will result it shorter life expectancy. Summed over all people, we will adapt, and the usual progress of technology will continue to increase our longevity.
 
