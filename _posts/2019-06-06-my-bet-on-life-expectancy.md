@@ -10,7 +10,7 @@ mathjax: true
 
 # My Bet on Life Expectancy
 
-I have made a bet on life expectancy with Lee Miller. If the [WHO life expectancy](https://www.who.int/gho/mortality_burden_disease/life_tables/situation_trends/en/) rises by more than 1 year from baseline 72 in 2035 (35 years), then I win $100. If the life expectancy _drops_ by more than one 1 year from 72, then I lose $100. If the change is less than one year either way, then no one owes anything. 
+I have made a bet on life expectancy with Lee Miller. If the [WHO life expectancy](https://www.who.int/gho/mortality_burden_disease/life_tables/situation_trends/en/) rises by more than 1 year from the baseline of 72 in 2054 (35 years from now), then I win $100. If the life expectancy _drops_ by more than one 1 year from 72, then I lose $100. If the change is less than one year either way, then no one owes anything. 
 
 Lee is betting on environmental issues lowering, or preventing from raising, life expectancy. I, on the other hand, think that humanity will be able to adapt to climate change. Moreover, I expect technology and healthcare progress to continue enough to win the bet.
 
