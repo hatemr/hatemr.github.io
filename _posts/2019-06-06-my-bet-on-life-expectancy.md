@@ -22,7 +22,7 @@ This plot shows a clear long-term trend, which I expect to continue unless large
 
 I don't see it though; people will adapt. If floods increase, people will to higher ground. If droughts occur, people will move or get food elsewhere. If extreme temperatures rise to deadly levels, people will buy AC. I'm not saying climate change won't have large effects, or will be harmless, I just don't think they will result it shorter life expectancy. Summed over all people, we will adapt, and the usual progress of technology will continue to increase our longevity.
 
-Disagree? Lee did, and being an especially honest man, he put his money where his mouth is. In fact, he came up with the idea to bet. I welcome anyone else interested in offering a wager. This is about intellectual honesty and making sure that I honestly believe every thing I say.
+Disagree? Lee did, and he put his money where his mouth is. I welcome anyone else interested in offering a wager. This is about intellectual honesty and making sure that I honestly believe every thing I say.
 
 Moreover, this tiny bet pushed me to learn more about the issue. It drove me to dig through some data, research relevant arguments, weight the evidence, and form a slightly more informed opinion. Isn't that a great outcome for any disagreement?
 
