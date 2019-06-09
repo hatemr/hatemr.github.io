@@ -131,4 +131,4 @@ Other approaches are to use a fixed value $\eta < 1$ or a decaying $\eta_m$.
 ### XGBoost
 XGBoost is a highly useful implementation of gradient boosting. It uses CART trees as the weak learners and can use any differentiable loss function.
 
-See: [*XGBoost documentation: Introduction to Boosted Trees*](https://xgboost.readthedocs.io/en/latest/)
+See: [*XGBoost documentation: Introduction to Boosted Trees*](https://xgboost.readthedocs.io/en/latest/){:target="_blank"}
