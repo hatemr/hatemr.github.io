@@ -9,7 +9,7 @@ Image: images/CRA.img
 mathjax: true
 ---
 
-These are a few common algorithms in machine learning.
+A few more common algorithms.
 
 ## Decision Trees
 Decision trees split the feature space into non-overlapping regions, then predict the average value in the region (regression), or probability of being in any given class based on fraction of each class  in the region (classification). The features space is split into regions through recursive binary splitting. At each step, a region is split in two based on whichever feature and splitting threshold minimizes the objective function. The objective function is usually Gini impurity or entropy. For each split, the feature and threshold is found which will cause the largest decrease in impurity. This requires searching through all features and possible thresholds for each split. The algorithm continues splitting until some stopping criteria is met (e.g. maximum depth is reached).
@@ -100,7 +100,7 @@ Notice in the algorithm:
 
 * At each step, we want to move the master function in the direction of the negative gradient. Instead of directly calculating the gradient in functional space (I'm not sure what that would even mean), we take $N$ samples of the gradient, then find a function which best fits these samples, and you that as our best approximation of the gradient. We could simply step in the direction of the gradient, but it only optimizes the function $F$ at a fixed set of $N$ points, so we do not learn a function that can generalize to new data. 
 
-* The gradient equally the negative of the residuals results from using the squared loss function, but we can use any loss function and derive a new gradient boosting algorithm. This nice result, we're fitting the residuals, seems nice since we were motivated by boosting but unnecessary for our *functional gradient descent* algorithm. We can interpret it as fitting the residuals at each step, but that is a nice side-effect and not integral to the procedure.
+* The gradient equals the negative of the residuals results from using the squared loss function, but we can use any loss function and derive a new gradient boosting algorithm. This result seems, that we're fitting the residuals, since we were motivated by boosting but unnecessary for our *functional gradient descent* algorithm. We can interpret it as fitting the residuals at each step, but that is a nice side-effect and not integral to the procedure.
 
 * Gradient boosting is general; all we need is a (sufficiently) differentiable loss function. For example, the absolute error loss function is $ y_i - f(\mathbf{x_i})$ and it's derivative with respect to $f(\mathbf{x_i})$ is $\text{sign}(y_i - f(\mathbf{x_i}))$
 
@@ -131,4 +131,4 @@ Other approaches are to use a fixed value $\eta < 1$ or a decaying $\eta_m$.
 ### XGBoost
 XGBoost is a highly useful implementation of gradient boosting. It uses CART trees as the weak learners and can use any differentiable loss function.
 
-See: [*XGBoost documentation: Introduction to Boosted Trees*](http://shop.oreilly.com/product/0636920052289.dhttps://xgboost.readthedocs.io/en/latest/tutorials/model.htmlo)
+See: [*XGBoost documentation: Introduction to Boosted Trees*](https://xgboost.readthedocs.io/en/latest/)
