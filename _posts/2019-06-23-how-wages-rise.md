@@ -8,7 +8,6 @@ Image: images/life_expectancy.png
 mathjax: true
 ---
 
-# How Wages Rise
 #### Notes from Econtalk with James Besson (May 23, 2016)
 Link [here](http://www.econtalk.org/james-bessen-on-learning-by-doing/).
 
@@ -76,6 +75,7 @@ Drawbacks:
 
 Route 128 is an example of a high-tech area which fell behind partly due to non-competes. Silicon Valley, on the other hand, enforced non-competes much less, leading to greater innovation.
 
+### Conclusion
 Advice for non-technical, non-mathematical workers:
 * Not everyone can do advanced math or code at a high level. So how what the advice for them? And what should our school system be doing for them?
 * Need to be comfortable with computers, be able to think quantitatively, and need to be able to learn new systems as the systems continually change.
