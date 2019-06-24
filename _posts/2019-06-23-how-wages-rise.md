@@ -11,7 +11,7 @@ mathjax: true
 #### Notes from Econtalk with James Besson (May 23, 2016)
 Link [here](http://www.econtalk.org/james-bessen-on-learning-by-doing/).
 
-__TL; DR__: Employees threaten to leave, so firms raise wages to attract and retain workers. Employees can threaten to leave when their skills are useful at other firms, which occurs with standardization. Standardization of technology allows firms to bring skills from one firm to another. If all skills are firm-specific, then workers cannot leave for higher wages elsewhere. This threat of leaving forces employers to pay more to attract and retain workers.
+__TL; DR__: Employees threaten to leave, so firms raise wages to attract and retain workers. Employees can threaten to leave when their skills are useful at other firms, which occurs with standardization. Standardization of technology allows workers to apply their skills to many different firms, giving them bargaining power. On the other hand, if all skills are firm-specific, then workers cannot leave for higher wages elsewhere. Standardization of tasks in the mills during industrialization is key for wages rising for workers.
 
 ### Background
 Wages did not rise in textile mills for a while after productivity rose.
