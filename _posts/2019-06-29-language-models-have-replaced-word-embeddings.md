@@ -8,7 +8,6 @@ Image: images/life_expectancy.png
 mathjax: true
 ---
 
-### Language models have replaced word embeddings
 Improving embeddings has driven advances in benchmark tasks in NLP for a while:
 * Pretrained word embeddings on large amounts of unlabled data (word2vec, GLoVe).
 * These pre-trained embeddings are fed in to the first layer of a neural networks, then trained further on a particular task.
