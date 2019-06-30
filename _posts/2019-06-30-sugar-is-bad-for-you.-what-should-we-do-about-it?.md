@@ -1,5 +1,5 @@
 ---
-Title: Sugar seems to be bad for you. What should we do about it?
+Title: Junk food seems to be bad for you. What should we do about it?
 Date: 2019-06-30
 Author: Robert Hatem
 Lang: en
@@ -7,9 +7,6 @@ Tags:
 Image: images/life_expectancy.png
 mathjax: true
 ---
-
-Based on an [Econtalk with Gary Taubes](http://www.econtalk.org/gary-taubes-on-the-case-against-sugar/) on January 6, 2017 on his book [_The Case Against Sugar_](https://www.amazon.com/Case-Against-Sugar-Gary-Taubes/dp/0307701646).
-
 
 We should do nothing. People already trade off the benefits of healthy food with the enjoyment and convenience of less-healthy alternatives. It is their right to choose for themselves and other people's responsibility to let them choose, even if it hurts us to watch their decisions.
 
