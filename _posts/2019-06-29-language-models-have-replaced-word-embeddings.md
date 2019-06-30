@@ -7,6 +7,7 @@ Tags:
 Image: images/life_expectancy.png
 mathjax: true
 ---
+*circa summer 2018
 
 Improving embeddings has driven advances in benchmark tasks in NLP for a while:
 * Pretrained word embeddings on large amounts of unlabled data (word2vec, GLoVe).
