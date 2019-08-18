@@ -10,7 +10,7 @@ linkedin_username: robert-e-hatem
 
 base-url: https://hatemr.github.io/
 
-show_excerpts: true # set to false to remove excerpts on the homepage
+show_excerpts: false # true # set to false to remove excerpts on the homepage
 
 theme: minima #jekyll-theme-minimal
 
