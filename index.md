@@ -1,4 +1,4 @@
 ---
 layout: home
 ---
-Robert E. Hatem: My personal blog to share some of my work and ideas.
+Robert E. Hatem: My personal site to share some work and ideas.
