@@ -1,12 +1,12 @@
 title: Untoward Data Science
-email: emile65432@yahoo.com
+email: rhatem@uchicago.edu
 description: > # this means to ignore newlines until "baseurl:"
   Now I can pontificate.
 
 # social links
 # twitter_username: your-twitter-handle
-#github_username:  hatemr
-#linkedin_username: robert-e-hatem 
+github_username:  hatemr
+linkedin_username: robert-e-hatem 
 
 base-url: https://hatemr.github.io/
 
