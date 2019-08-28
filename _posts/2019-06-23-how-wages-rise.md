@@ -11,7 +11,7 @@ mathjax: true
 #### Notes from Econtalk with James Besson (May 23, 2016)
 Link [here](http://www.econtalk.org/james-bessen-on-learning-by-doing/).
 
-__TL; DR__: Employers raise wages only when they must do so to retain workers. Workers threaten to leave only when their skills are useful at other firms. Thus standardizing skills across firms gives workers more options and bargaining power. This forces employers to raise wages to retain workers.
+__TL; DR__: Employers raise wages only when they must do so to keep workers. Workers threaten to leave only when their skills are useful at other firms. Thus standardizing skills across firms gives workers more options and bargaining power. This forces employers to raise wages to keep workers.
 
 ### Background
 Wages did not rise in textile mills for a while after productivity rose.
