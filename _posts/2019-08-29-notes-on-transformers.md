@@ -8,8 +8,7 @@ Image: images/life_expectancy.png
 mathjax: true
 ---
 
-# Notes
-I took these notes while reading the excellent tutorial [_Transformers from Scratch_].(http://peterbloem.nl/blog/transformers) (August 18, 2019)
+These are notes I took  while reading the excellent tutorial [_Transformers from Scratch_](http://peterbloem.nl/blog/transformers) (August 18, 2019)
 ## Self-attention
 A sequence-to-sequence operation that produces the output vector $\bf{y}_i$ as a weighted average of all the input vectors:
  
@@ -44,7 +43,6 @@ Note that:
   * there are not parameters yet. Self-attention takes similarity between existing vectors.
   * Self attention sees its input as a set (all at once), not a sequence. Self-attention ignores sequential nature of the text input.
   
-## In Pytorch: basic self-attention
 ### Additional tricks
 1. Queries, keys, and values
 2. Scaling the dot product
@@ -65,7 +63,7 @@ Residual connections are added around both, before the normalization.
 
 # Classification transformer
 * Task:
-  * _sequence classification.
+  * sequence classification.
 * Dataset:
   * IMDb sentiment classiment dateset (pos/neg)
 * We must build a classifier out of sequence-to-sequence layerss:
