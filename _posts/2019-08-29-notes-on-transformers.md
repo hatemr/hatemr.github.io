@@ -8,7 +8,7 @@ Image: images/life_expectancy.png
 mathjax: true
 ---
 
-These are notes I took  while reading the excellent tutorial [_Transformers from Scratch_](http://peterbloem.nl/blog/transformers) (August 18, 2019)
+These are notes I took  while reading the excellent tutorial [Transformers from Scratch](http://peterbloem.nl/blog/transformers) (August 18, 2019)
 ## Self-attention
 A sequence-to-sequence operation that produces the output vector $\bf{y}_i$ as a weighted average of all the input vectors:
  
