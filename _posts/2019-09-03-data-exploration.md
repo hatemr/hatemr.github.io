@@ -178,7 +178,7 @@ pd.plotting.scatter_matrix(df);
 ```
 
 
-![png](../images/output_8_0.png)
+![png](/images/output_8_0.png)
 
 
 Conclusions:
@@ -194,7 +194,7 @@ df.hist();
 ```
 
 
-![png](../images/output_11_0.png)
+![png](/images/output_11_0.png)
 
 
 __Observations__:
@@ -222,4 +222,4 @@ pd.qcut(df.CRIM, 5).value_counts().plot.bar();
 
 
 
-![png](../images/output_14_1.png)
+![png](/images/output_14_1.png)
