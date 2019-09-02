@@ -44,7 +44,7 @@ The __ROC curve__ plots the recall true positive rate (TPR) vs. the false positi
 * FPR = $\frac{fp}{fp+tn}$. It is the fraction of actual postives that were correctly predicted.
 An [example ROC curve](https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html#sphx-glr-auto-examples-model-selection-plot-roc-py) is shown below:
 
-![roc curve](roc_curve.png)
+![roc curve](/images/roc_curve.png)
 
 Ideally, the curve would hug the top-left corner: the TPR always 1 for all values of the false positive rate. We measure the area under the ROC curve and call it the __AUC__ (area under the curve). AUC ranges from 0.5 to 1 with higher being better. 
 
