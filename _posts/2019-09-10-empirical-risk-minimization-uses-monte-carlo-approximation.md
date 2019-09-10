@@ -14,7 +14,7 @@ $$ R(p_{*}, \delta) = \mathbb{E}_{(\bf{x}, \mathit{y}) \sim p_{*} } [L(y, \delta
 
 However, we usually don't know the true data-generating distribution $p_{*}$. So we must use a __Monte Carlo__ to approximate this expectation (i.e. integral). 
 
-First, we approximate the distribution of $L(y, \delta \bf(x))$ with the _empirical_ distribution $\{L(y_i, \delta \bf(x)_i)\}_{i=1}^N$. We simply draw samples, then compute the arithmetic mean of the function applied to the samples:
+First, we approximate the distribution of $L(y, \delta \bf(x))$ with the _empirical_ distribution $$ \{L(y_i, \delta \bf(x)_i)\}_{i=1}^N $$. We simply draw samples, then compute the arithmetic mean of the function applied to the samples:
 
 $$ R_{emp} = R(p_{emp}, \delta) = \frac{1}{N} \sum_{i=1}^{N} L(y_i, \delta(\bf{x}_i))
 $$
