@@ -20,9 +20,9 @@ $$
 ## Parameters of HMM
 The parameters of an HMM are the probabilities in the joint distribution above. We introduce some notation for these probabilities and give them names, but remember that they are just densities (or PMFs in discrete case).
 
-* Transition probabilities:   $T(i,j) = p(Z_{k+1}=j \vert Z_k=i) \hspace{10mm} (i,j \in \{1,...,m\}) $. Notice that these probabilities form a _transition matrix_.
-* Emission probabilities: $\varepsilon_i(x) = p(X \vert Z_k=i)  \hspace{10mm} (i \in \{1,...,m\}) $
-* Initial distribution: $\pi(i) = p(Z_1=i) \hspace{10mm} i \in \{1,...,m \}$
+* __Transition probabilities__:   $T(i,j) = p(Z_{k+1}=j \vert Z_k=i) \hspace{10mm} (i,j \in \{1,...,m\}) $. Notice that these probabilities form a _transition matrix_.
+* __Emission probabilities__: $\varepsilon_i(x) = p(X \vert Z_k=i)  \hspace{10mm} (i \in \{1,...,m\}) $
+* __Initial distribution__: $\pi(i) = p(Z_1=i) \hspace{10mm} i \in \{1,...,m \}$
 
 With these abbreviations, we rewrite the joing density:
 
